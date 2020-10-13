@@ -1,0 +1,44 @@
+{
+  "name": "rn-usepopupmenu",
+  "version": "1.0.5",
+  "description": "React Native Popup Dialog for Android.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-install": "rimraf node_modules && yarn"
+  },
+  "keywords": [
+    "popup",
+    "menu",
+    "react-native",
+    "react-component"
+  ],
+  "author": "ck yong <ckyong2010@gmail.com>",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckyong2015/rn-usepopupmenu.git"
+  },
+  "dependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.2",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "peerDependencies": {
+    "react-native-vector-icons": ">=6.0.1",
+    "react-native": ">=0.61.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
